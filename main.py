@@ -83,6 +83,7 @@ Rules:
 - Do not use ** symbols.
 - Do not use bullet formatting with markdown.
 - Return plain text only.
+- Output URLs exactly as provided in the knowledge base
 
 Knowledge Base:
 
