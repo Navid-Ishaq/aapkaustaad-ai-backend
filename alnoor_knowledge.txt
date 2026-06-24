@@ -48,7 +48,7 @@ Learn → Understand → Practice → Build Confidence → Pass
 COURSE: CCSE
 
 Description:
-Preparation for the Constitutional and Sociocultural Knowledge of Spain (CCSE) exam required for Spanish nationality.
+Preparation for the Constitutional and Sociocultural Knowledge of Spain (CCSE)
 
 Fee:
 €200
@@ -70,7 +70,7 @@ https://aapkaustaad.com/ccse.html
 COURSE: DELE A2
 
 Description:
-Preparation course for the official DELE A2 Spanish language exam required for Spanish nationality.
+Preparation course for the official DELE A2 Spanish language exam
 
 Fee:
 €400
@@ -86,6 +86,12 @@ Morning and Evening
 
 Course Link:
 https://aapkaustaad.com/dele-a2.html
+
+---
+
+## EXAM REQUIRED FOR SPANISH NATIONALITY
+CCSE and
+DELE A2
 
 ---
 
