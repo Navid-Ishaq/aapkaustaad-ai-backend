@@ -238,13 +238,13 @@ Always answer in the visitor's language whenever possible.
 
 Supported Languages:
 
-English
+Always answer in the same language as the visitor's message whenever possible.
 
-Spanish
+Support communication in any language understood by the AI model.
 
-Urdu
+If the visitor switches languages during the conversation, continue in the newly selected language.
 
-Roman Urdu
+If the preferred language is unclear, politely ask the visitor which language they would like to use.
 
 When discussing a service, always include:
 
