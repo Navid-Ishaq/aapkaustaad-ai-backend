@@ -103,42 +103,41 @@ User Message
 """
 
     messages = [
-    {
-        "role": "system",
-        "content": "You are a professional AI Business Assistant."
-    },
-    {
-        "role": "user",
-        "content": prompt
-    }
-]
+        {
+            "role": "system",
+            "content": "You are a professional AI Business Assistant."
+        },
+        {
+            "role": "user",
+            "content": prompt
+        }
+    ]
 
-# Previous conversation add karein
-for msg in question.history:
-    if msg.get("role") in ["user", "assistant"]:
-        messages.append({
-            "role": msg["role"],
-            "content": msg["content"]
-        })
+    # Previous conversation
+    for msg in question.history:
+        if msg.get("role") in ["user", "assistant"]:
+            messages.append({
+                "role": msg["role"],
+                "content": msg["content"]
+            })
 
-response = client.chat.completions.create(
-    model="gpt-4o-mini",
-    messages=messages
-)
-
-answer = response.choices[0].message.content
-
-whatsapp = None
-
-if "REGISTRATION SUMMARY" in answer or "ORDER SUMMARY" in answer:
-
-    whatsapp = (
-        "https://wa.me/34663430258?text="
-        + quote(answer)
+    response = client.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=messages
     )
 
-return {
-    "status": "success",
-    "answer": answer,
-    "whatsapp": whatsapp
-}
+    answer = response.choices[0].message.content
+
+    whatsapp = None
+
+    if "REGISTRATION SUMMARY" in answer or "ORDER SUMMARY" in answer:
+        whatsapp = (
+            "https://wa.me/34663430258?text="
+            + quote(answer)
+        )
+
+    return {
+        "status": "success",
+        "answer": answer,
+        "whatsapp": whatsapp
+    }
