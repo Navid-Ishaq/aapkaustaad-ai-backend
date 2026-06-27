@@ -19,6 +19,13 @@ client = OpenAI(
     api_key=os.getenv("OPENAI_API_KEY")
 )
 
+# =========================
+# LOAD DOMAIN MAP
+# =========================
+
+with open("domains.json", "r", encoding="utf-8") as f:
+    DOMAIN_MAP = json.load(f)
+
 
 # =========================
 # FASTAPI APP
