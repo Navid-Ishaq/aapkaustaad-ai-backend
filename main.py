@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from openai import OpenAI
 from dotenv import load_dotenv
+from urllib.parse import quote
 import os
 
 # =========================
@@ -118,11 +119,22 @@ User Message
     )
 
     answer = response.choices[0].message.content
+    whatsapp = None
+    if "REGISTRATION SUMMARY" in answer or "ORDER SUMMARY" in answer:
+
+    whatsapp = (
+    "https://wa.me/34663430258?text="
+    + quote(answer)
+)
+
+    
 
     return {
 
-        "status":"success",
+    "status":"success",
 
-        "answer":answer
+    "answer":answer,
 
-    }
+    "whatsapp":whatsapp
+
+}
