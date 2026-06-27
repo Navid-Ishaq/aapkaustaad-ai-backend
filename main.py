@@ -127,22 +127,18 @@ response = client.chat.completions.create(
 )
 
     answer = response.choices[0].message.content
-    whatsapp = None
-    if "REGISTRATION SUMMARY" in answer or "ORDER SUMMARY" in answer:
+
+whatsapp = None
+
+if "REGISTRATION SUMMARY" in answer or "ORDER SUMMARY" in answer:
 
     whatsapp = (
-    "https://wa.me/34663430258?text="
-    + quote(answer)
-)
+        "https://wa.me/34663430258?text="
+        + quote(answer)
+    )
 
-    
-
-    return {
-
-    "status":"success",
-
-    "answer":answer,
-
-    "whatsapp":whatsapp
-
+return {
+    "status": "success",
+    "answer": answer,
+    "whatsapp": whatsapp
 }
