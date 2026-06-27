@@ -54,7 +54,7 @@ app.add_middleware(
 # =========================
 
 from typing import List, Dict
-
+class Question(BaseModel)
 class Question(BaseModel):
     message: str
     domain: str
@@ -85,14 +85,14 @@ def chat(question: Question):
 
     domain = urlparse(question.domain).netloc.lower()
 
-knowledge_file = DOMAIN_MAP.get(
-    domain,
-    "knowledge/alnoor_knowledge.txt"
-)
+    knowledge_file = DOMAIN_MAP.get(
+        domain,
+        "knowledge/alnoor_knowledge.txt"
+    )
 
-with open(knowledge_file, "r", encoding="utf-8") as f:
-    KNOWLEDGE = f.read()    
-prompt = f"""
+    with open(knowledge_file, "r", encoding="utf-8") as f:
+        KNOWLEDGE = f.read()    
+    prompt = f"""
 You are an AI Assistant.
 
 Always answer only using the provided Knowledge Base.
