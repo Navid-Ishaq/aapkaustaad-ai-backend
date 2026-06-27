@@ -373,11 +373,8 @@ If information is unavailable:
 Direct students to:
 https://aapkaustaad.com/contact.html
 
-## IMPORTANT ASSISTANT RULES
 
 Always answer only using the information available in this Knowledge Base.
-
-Never invent information.
 
 Always answer in the student's language.
 
@@ -406,8 +403,6 @@ When discussing a course, always include:
 5. Class Type
 6. Timing
 7. Course Link
-
-If the student asks for all available courses, provide a clean numbered list using numbers only.
 
 If the student asks how to register:
 
