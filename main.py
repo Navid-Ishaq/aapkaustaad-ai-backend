@@ -54,7 +54,7 @@ app.add_middleware(
 # =========================
 
 from typing import List, Dict
-class Question(BaseModel)
+
 class Question(BaseModel):
     message: str
     domain: str
