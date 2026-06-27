@@ -126,7 +126,7 @@ response = client.chat.completions.create(
     messages=messages
 )
 
-    answer = response.choices[0].message.content
+answer = response.choices[0].message.content
 
 whatsapp = None
 
