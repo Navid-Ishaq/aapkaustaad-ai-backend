@@ -4,6 +4,7 @@ from pydantic import BaseModel
 from openai import OpenAI
 from dotenv import load_dotenv
 from urllib.parse import quote
+from typing import List, Dict
 import os
 
 # =========================
@@ -49,8 +50,11 @@ app.add_middleware(
 # REQUEST MODEL
 # =========================
 
+from typing import List, Dict
+
 class Question(BaseModel):
     message: str
+    history: List[Dict] = []
 
 # =========================
 # HEALTH CHECK
@@ -98,25 +102,29 @@ User Message
 {question.message}
 """
 
-    response = client.chat.completions.create(
+    messages = [
+    {
+        "role": "system",
+        "content": "You are a professional AI Business Assistant."
+    },
+    {
+        "role": "user",
+        "content": prompt
+    }
+]
 
-        model="gpt-4o-mini",
+# Previous conversation add karein
+for msg in question.history:
+    if msg.get("role") in ["user", "assistant"]:
+        messages.append({
+            "role": msg["role"],
+            "content": msg["content"]
+        })
 
-        messages=[
-
-            {
-                "role":"system",
-                "content":"You are a professional AI Business Assistant."
-            },
-
-            {
-                "role":"user",
-                "content":prompt
-            }
-
-        ]
-
-    )
+response = client.chat.completions.create(
+    model="gpt-4o-mini",
+    messages=messages
+)
 
     answer = response.choices[0].message.content
     whatsapp = None
