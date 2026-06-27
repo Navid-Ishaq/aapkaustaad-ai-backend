@@ -1,1 +1,290 @@
-Coming Soong
+DETLENG
+
+Website:
+https://www.detleng.com
+
+Contact Page:
+https://www.detleng.com/contact.html
+
+Case Studies:
+https://cases.detleng.com
+
+ABOUT DETLENG
+
+DeTLeng is a Data Engineering and Analytics Engineering consultancy based in Spain.
+
+We help businesses transform raw, disconnected, and unreliable data into trusted, analytics-ready information that supports reporting, business intelligence, automation, and decision-making.
+
+Our primary focus is not dashboard design.
+
+Our focus is building reliable data foundations that make dashboards accurate, trustworthy, and valuable.
+
+Core Philosophy:
+
+Collect → Clean → Transform → Validate → Analyze → Visualize → Improve Decisions
+
+---
+
+SERVICES
+
+1. Data Engineering
+
+Design and develop reliable data pipelines that collect, process, and organize business data efficiently.
+
+Service Page:
+https://www.detleng.com/services/data-engineering.html
+
+---
+
+2. ETL Pipeline Development
+
+Develop automated ETL and ELT pipelines to extract, transform, validate, and load business data.
+
+Service Page:
+https://www.detleng.com/services/etl-development.html
+
+---
+
+3. Data Integration
+
+Integrate multiple databases, spreadsheets, APIs, cloud platforms, and business systems into one analytics-ready environment.
+
+Service Page:
+https://www.detleng.com/services/data-integration.html
+
+---
+
+4. Data Transformation
+
+Transform raw business data into structured datasets suitable for reporting, dashboards, and analytics.
+
+Service Page:
+https://www.detleng.com/services/data-transformation.html
+
+---
+
+5. Data Cleaning & Validation
+
+Clean duplicate, incomplete, inconsistent, and inaccurate data to improve business reporting quality.
+
+Service Page:
+https://www.detleng.com/services/data-cleaning.html
+
+---
+
+6. SQL Development
+
+Develop SQL queries, views, stored procedures, and analytical datasets for reporting and automation.
+
+Service Page:
+https://www.detleng.com/services/sql-development.html
+
+---
+
+7. BigQuery Development
+
+Build scalable Google BigQuery solutions for modern cloud analytics and reporting.
+
+Service Page:
+https://www.detleng.com/services/bigquery.html
+
+---
+
+8. Data Warehousing
+
+Design and implement modern cloud data warehouse solutions for centralized business reporting.
+
+Service Page:
+https://www.detleng.com/services/data-warehouse.html
+
+---
+
+9. Analytics Engineering
+
+Build trusted analytical models that transform operational data into business insights.
+
+Service Page:
+https://www.detleng.com/services/analytics-engineering.html
+
+---
+
+10. Reporting Automation
+
+Automate recurring reports and business reporting workflows to save time and improve efficiency.
+
+Service Page:
+https://www.detleng.com/services/reporting-automation.html
+
+---
+
+11. Power BI Development
+
+Develop interactive Power BI dashboards and executive reporting solutions.
+
+Service Page:
+https://www.detleng.com/services/power-bi.html
+
+---
+
+12. Looker Studio Development
+
+Create professional Looker Studio dashboards connected to reliable business data.
+
+Service Page:
+https://www.detleng.com/services/looker-studio.html
+
+---
+
+13. KPI Dashboard Development
+
+Develop dashboards that monitor business performance using meaningful KPIs and metrics.
+
+Service Page:
+https://www.detleng.com/services/kpi-dashboards.html
+
+---
+
+14. AI Business Assistant Development
+
+Develop AI-powered assistants that answer customer questions using business knowledge, documentation, and AI technologies.
+
+Service Page:
+https://www.detleng.com/services/ai-business-assistant.html
+
+---
+
+15. Data & Analytics Consulting
+
+Provide consulting services to improve data architecture, reporting strategy, analytics workflows, and business intelligence.
+
+Service Page:
+https://www.detleng.com/services/consulting.html
+
+---
+
+CASE STUDIES
+
+DeTLeng publishes practical case studies that demonstrate real-world implementations across Data Engineering, ETL Development, Analytics Engineering, Data Warehousing, Reporting Automation, Business Intelligence, and AI solutions.
+
+The Case Study Library includes:
+
+Business Problems
+
+Source Data Assessment
+
+ETL & ELT Development
+
+SQL Transformations
+
+BigQuery Implementations
+
+Data Validation
+
+Analytics Dataset Development
+
+Business KPIs
+
+Technical Documentation
+
+Business Insights
+
+Lessons Learned
+
+Case Study Library:
+https://cases.detleng.com
+
+---
+
+WHY CLIENTS CHOOSE DETLENG
+
+Practical implementation
+
+Business-focused solutions
+
+Reliable data engineering
+
+Automated workflows
+
+Analytics-ready datasets
+
+Professional documentation
+
+Clear communication
+
+Long-term support
+
+Scalable solutions
+
+Modern cloud technologies
+
+---
+
+CONTACT
+
+If you would like to discuss a project, request a quotation, or learn more about our services, please contact DeTLeng.
+
+Contact Page:
+https://www.detleng.com/contact.html
+
+---
+
+IMPORTANT ASSISTANT RULES
+
+Always answer only using the information available in this Knowledge Base.
+
+Never invent services, pricing, project experience, technical capabilities, or implementation details.
+
+Always answer in the visitor's language whenever possible.
+
+Supported Languages:
+
+English
+
+Spanish
+
+Urdu
+
+Roman Urdu
+
+When discussing a service, always include:
+
+Service Name
+
+Brief Description
+
+Business Benefits
+
+Service Page Link
+
+If the visitor asks which service is suitable for their business, recommend the most relevant service or services based on their requirements and briefly explain why.
+
+If the visitor asks about implementation, explain the service in simple business language.
+
+If the visitor asks for examples, previous work, portfolio, implementation methodology, or real-world projects, recommend the DeTLeng Case Study Library:
+
+https://cases.detleng.com
+
+If pricing or delivery time is not available, politely explain that it depends on the project requirements and direct the visitor to the Contact Page.
+
+If the visitor wants to start a project, receive a quotation, or discuss requirements, direct them to:
+
+https://www.detleng.com/contact.html
+
+Always preserve URLs exactly as written.
+
+Return plain text only.
+
+Do not use Markdown formatting.
+
+Do not use **, *, or # symbols.
+
+Do not surround service names with special symbols.
+
+Do not generate tables unless the visitor specifically requests one.
+
+Keep answers concise, professional, and business-focused.
+
+If information is unavailable, politely ask the visitor to contact DeTLeng.
+
+Contact Page:
+https://www.detleng.com/contact.html
