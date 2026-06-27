@@ -19,7 +19,7 @@ client = OpenAI(
 # LOAD KNOWLEDGE
 # =========================
 
-with open("alnoor_knowledge.txt", "r", encoding="utf-8") as f:
+with open("knowledge.txt", "r", encoding="utf-8") as f:
     KNOWLEDGE = f.read()
 
 # =========================
@@ -27,7 +27,7 @@ with open("alnoor_knowledge.txt", "r", encoding="utf-8") as f:
 # =========================
 
 app = FastAPI(
-    title="AL-NOOR AI Backend"
+    title="Universal AI Backend"
 )
 
 # =========================
@@ -37,8 +37,7 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://aapkaustaad.com",
-        "https://www.aapkaustaad.com",
+        "*"
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -58,55 +57,72 @@ class Question(BaseModel):
 
 @app.get("/")
 def home():
+
     return {
         "status": "running",
-        "service": "AL-NOOR AI Backend"
+        "service": "Universal AI Backend"
     }
 
 # =========================
-# CHAT ENDPOINT
+# CHAT
 # =========================
 
 @app.post("/chat")
 def chat(question: Question):
 
     prompt = f"""
-You are AL-NOOR Educational Centre Assistant.
+You are an AI Assistant.
+
+Always answer only using the provided Knowledge Base.
 
 Rules:
-- Answer only from the provided knowledge.
-- If information is not available, say:
-  "Please contact AL-NOOR Educational Centre for further information."
-- Respond in the same language as the student's question whenever possible.
-- Be concise and helpful.
+
+- Never invent information.
+- If information is unavailable, politely ask the user to contact the business.
+- Always answer in the same language as the user's message whenever possible.
+- Be friendly, concise and professional.
+- Return plain text only.
 - Do not use markdown.
 - Do not use ** symbols.
-- Do not use bullet formatting with markdown.
-- Return plain text only.
-- Output URLs exactly as provided in the knowledge base
+- Preserve URLs exactly as written.
 
-Knowledge Base:
+If the knowledge base contains registration or ordering instructions, follow them naturally during the conversation.
+
+Knowledge Base
 
 {KNOWLEDGE}
 
-Student Question:
+User Message
+
 {question.message}
 """
 
     response = client.chat.completions.create(
+
         model="gpt-4o-mini",
+
         messages=[
+
             {
-                "role": "system",
-                "content": "You are a helpful AL-NOOR Educational Centre assistant."
+                "role":"system",
+                "content":"You are a professional AI Business Assistant."
             },
+
             {
-                "role": "user",
-                "content": prompt
+                "role":"user",
+                "content":prompt
             }
+
         ]
+
     )
 
+    answer = response.choices[0].message.content
+
     return {
-        "answer": response.choices[0].message.content
+
+        "status":"success",
+
+        "answer":answer
+
     }
