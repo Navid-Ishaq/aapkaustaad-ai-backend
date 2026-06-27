@@ -78,8 +78,21 @@ def home():
 
 @app.post("/chat")
 def chat(question: Question):
+    
+# =========================
+# LOAD KNOWLEDGE FOR DOMAIN
+# =========================
 
-    prompt = f"""
+domain = urlparse(question.domain).netloc.lower()
+
+knowledge_file = DOMAIN_MAP.get(
+    domain,
+    "knowledge/alnoor_knowledge.txt"
+)
+
+with open(knowledge_file, "r", encoding="utf-8") as f:
+    KNOWLEDGE = f.read()    
+prompt = f"""
 You are an AI Assistant.
 
 Always answer only using the provided Knowledge Base.
