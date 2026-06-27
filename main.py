@@ -50,6 +50,7 @@ from typing import List, Dict
 
 class Question(BaseModel):
     message: str
+    domain: str
     history: List[Dict] = []
 
 # =========================
