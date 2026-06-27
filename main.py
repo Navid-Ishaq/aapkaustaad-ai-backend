@@ -83,7 +83,7 @@ def chat(question: Question):
 # LOAD KNOWLEDGE FOR DOMAIN
 # =========================
 
-domain = urlparse(question.domain).netloc.lower()
+    domain = urlparse(question.domain).netloc.lower()
 
 knowledge_file = DOMAIN_MAP.get(
     domain,
