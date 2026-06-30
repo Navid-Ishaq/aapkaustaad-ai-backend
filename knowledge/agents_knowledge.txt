@@ -1,1 +1,240 @@
-Coming Soong
+AGENTS DETLENG
+
+Website:
+https://agents.detleng.com
+
+ABOUT
+
+Agents DeTLeng helps businesses explore practical Artificial Intelligence, AI Agents, Intelligent Automation, and knowledge-driven business solutions.
+
+Our goal is to help organizations improve productivity, reduce repetitive work, organize business knowledge, and discover practical AI solutions that create real business value.
+
+Every solution starts by understanding the business before recommending technology.
+
+Core Philosophy
+
+Understand → Plan → Build → Automate → Improve
+
+--------------------------------------------------
+
+WHAT WE DO
+
+Agents DeTLeng helps organizations identify practical opportunities where Artificial Intelligence and Intelligent Automation can improve everyday business operations.
+
+Our solutions are designed to support people, simplify repetitive work, improve access to information, and help businesses become more efficient.
+
+--------------------------------------------------
+
+WHAT CAN BE AUTOMATED
+
+Many business activities follow predictable workflows that can benefit from intelligent automation.
+
+1. Customer Communication
+
+Automate responses to common customer questions, appointment requests, and routine support enquiries.
+
+2. Business Documentation
+
+Organize documents, retrieve information, and generate summaries from business knowledge.
+
+3. Reporting
+
+Automate recurring reports, business summaries, and operational updates.
+
+4. Internal Knowledge
+
+Help employees quickly find policies, procedures, manuals, and internal documentation.
+
+5. Sales & Lead Management
+
+Support lead qualification, follow-ups, customer communication, and sales administration.
+
+6. Marketing Support
+
+Assist with content preparation, campaign planning, and recurring marketing activities.
+
+7. Education & Training
+
+Provide intelligent learning assistants, learner guidance, and knowledge support.
+
+8. Administrative Workflows
+
+Automate repetitive administrative tasks, document processing, notifications, and workflow coordination.
+
+Automation is designed to support people, not replace them.
+
+Our objective is to automate the right tasks while keeping people at the center of decision-making.
+
+--------------------------------------------------
+
+BUSINESS APPLICATIONS
+
+Artificial Intelligence can create value across many business functions.
+
+1. Customer Support
+
+Provide instant answers to common customer questions and improve response times.
+
+2. Sales Support
+
+Assist with lead management, follow-ups, proposals, and customer communication.
+
+3. Marketing
+
+Support content creation, campaign planning, and marketing organization.
+
+4. Documentation & Knowledge Management
+
+Help organize, search, summarize, and manage business knowledge efficiently.
+
+5. Research & Analysis
+
+Analyze information, identify key insights, and summarize research findings.
+
+6. Reporting & Business Intelligence
+
+Support reporting, explain business information, and improve decision-making.
+
+7. Education & Training
+
+Provide AI-powered learning assistants and educational support.
+
+8. Human Resources
+
+Help employees access policies, onboarding information, and internal HR documentation.
+
+9. Administrative Operations
+
+Improve scheduling, document management, workflow coordination, and routine administration.
+
+Every business is different.
+
+Our objective is to understand your business first and recommend practical AI solutions that fit your goals and existing processes.
+
+--------------------------------------------------
+
+WEBSITE PAGES
+
+Home
+
+https://agents.detleng.com/index.html
+
+Overview of Agents DeTLeng, our mission, AI philosophy, and practical business solutions.
+
+--------------------------------------------------
+
+AI Agents
+
+https://agents.detleng.com/Agents.html
+
+Learn about AI Agents, business assistants, knowledge assistants, customer support assistants, internal assistants, and practical AI implementations.
+
+--------------------------------------------------
+
+Automation
+
+https://agents.detleng.com/Automation.html
+
+Learn how intelligent automation can reduce repetitive work, improve productivity, simplify workflows, and support business operations.
+
+--------------------------------------------------
+
+Applications
+
+https://agents.detleng.com/Applications.html
+
+Discover practical AI applications for customer support, sales, marketing, documentation, reporting, education, HR, administration, and knowledge management.
+
+--------------------------------------------------
+
+Case Studies
+
+https://agents.detleng.com/CaseStudies.html
+
+Explore practical implementations, real-world examples, and business-focused AI solutions.
+
+--------------------------------------------------
+
+Resources
+
+https://agents.detleng.com/Resources.html
+
+Browse learning resources, implementation guidance, articles, documentation, and educational material.
+
+--------------------------------------------------
+
+Ecosystem
+
+https://agents.detleng.com/Ecosystem.html
+
+Learn about the DeTLeng Ecosystem, including Data Engineering, AI, Automation, Case Studies, Knowledge Platforms, and future initiatives.
+
+--------------------------------------------------
+
+About
+
+https://agents.detleng.com/About.html
+
+Learn about Agents DeTLeng, our objectives, philosophy, and practical approach to Artificial Intelligence.
+
+--------------------------------------------------
+
+Contact
+
+https://agents.detleng.com/Contact.html
+
+Contact Agents DeTLeng to discuss your ideas, business challenges, AI projects, automation opportunities, or implementation requirements.
+
+--------------------------------------------------
+
+IMPORTANT ASSISTANT RULES
+
+Always answer in the visitor's preferred language whenever possible.
+
+Support all languages.
+
+Use only the information available in this knowledge base.
+
+Never invent services, pricing, experience, certifications, or technical capabilities.
+
+When visitors ask about AI Agents, briefly explain the topic and provide:
+
+https://agents.detleng.com/Agents.html
+
+When visitors ask about Automation, briefly explain the topic and provide:
+
+https://agents.detleng.com/Automation.html
+
+When visitors ask about Business Applications or practical AI use cases, briefly explain the topic and provide:
+
+https://agents.detleng.com/Applications.html
+
+When visitors ask for implementation examples, provide:
+
+https://agents.detleng.com/CaseStudies.html
+
+When visitors ask for learning materials or documentation, provide:
+
+https://agents.detleng.com/Resources.html
+
+When visitors ask about the DeTLeng Ecosystem, provide:
+
+https://agents.detleng.com/Ecosystem.html
+
+When visitors ask about Agents DeTLeng, provide:
+
+https://agents.detleng.com/About.html
+
+When visitors want to discuss a project, request a consultation, or contact us, always provide:
+
+https://agents.detleng.com/Contact.html
+
+If the visitor asks which page is most suitable for their needs, recommend the most relevant page and briefly explain why.
+
+Always preserve URLs exactly as written.
+
+Return plain text only.
+
+Do not use Markdown formatting.
+
+Do not use **, *, or # symbols.
