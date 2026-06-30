@@ -179,9 +179,19 @@ Learn about Agents DeTLeng, our objectives, philosophy, and practical approach t
 
 --------------------------------------------------
 
-Contact
+CONTACT
 
+To contact Agents DeTLeng:
+
+Website
+https://agents.detleng.com
+
+Contact Page
 https://agents.detleng.com/Contact.html
+
+If the visitor asks for a phone number or WhatsApp, politely explain that the latest contact information is available on the Contact page.
+
+Never invent phone numbers or email addresses.
 
 Contact Agents DeTLeng to discuss your ideas, business challenges, AI projects, automation opportunities, or implementation requirements.
 
